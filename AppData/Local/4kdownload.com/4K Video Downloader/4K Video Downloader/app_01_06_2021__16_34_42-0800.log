@@ -1,0 +1,133 @@
+16:34:42 -0800 (0x00002e10) [info] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+16:34:43 -0800 (0x00002e10) [info] [app_Gui] [BaseTranslator] Using locale en_US
+16:34:43 -0800 (0x00002e10) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.13.5.3950, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+16:34:43 -0800 (0x00002e10) [info] Creating new io context pool '' with 2 thread(s)
+16:34:43 -0800 (0x000013c8) [info] AsioContext::IoContext::threadFunc started
+16:34:43 -0800 (0x00003bd4) [info] AsioContext::IoContext::threadFunc started
+16:34:43 -0800 (0x00003bd4) [info] There are not subscriptions. Iteration is not started
+16:34:53 -0800 (0x00002e10) [info] [SoftwareUpdate] [Manager] checking
+16:34:53 -0800 (0x00002e10) [info] [SoftwareUpdate] [Manager] parsing
+16:34:53 -0800 (0x00002e10) [info] [SoftwareUpdate] [Manager] update available
+16:35:13 -0800 (0x00002e10) [info] [Feedback] [MessageCenter] downloaded
+16:35:13 -0800 (0x00002e10) [info] [Feedback] [MessageCenter] extracting messages
+16:35:13 -0800 (0x00002e10) [info] [Feedback] [MessageCenter] extracted 0 messages
+16:35:34 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/determine_service
+16:35:34 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:35:34 -0800 (0x00002e10) [info] App Graph: performing request for url: parsers/determine_service
+16:35:34 -0800 (0x00002e10) [info] Creating graph: ServiceDeterminatorWorkerNode
+16:35:34 -0800 (0x00002e10) [info] Creating new io context pool 'graph_stop' with 2 thread(s)
+16:35:34 -0800 (0x00002b50) [info] AsioContext::IoContext::threadFunc started
+16:35:34 -0800 (0x00003e18) [info] AsioContext::IoContext::threadFunc started
+16:35:34 -0800 (0x00002e10) [info] Starting simultaneously running controllers queue 'parse' with limit 20
+16:35:34 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/youtube
+16:35:34 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:35:34 -0800 (0x00002e10) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+16:35:34 -0800 (0x00001818) [info] Creating graph: YoutubeParserGraph
+16:35:34 -0800 (0x00003bd4) [info] Creating new io context pool 'parser' with 2 thread(s)
+16:35:34 -0800 (0x000036b8) [info] AsioContext::IoContext::threadFunc started
+16:35:34 -0800 (0x00002e6c) [info] AsioContext::IoContext::threadFunc started
+16:35:34 -0800 (0x000036b8) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=t7kt8jKC5Y8
+16:35:34 -0800 (0x000036b8) [info] Parse url: https://www.youtube.com/watch?v=t7kt8jKC5Y8
+16:35:35 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+16:35:35 -0800 (0x00002e10) [info] Creating new io context pool 'content_size_getter' with 2 thread(s)
+16:35:35 -0800 (0x00000454) [info] AsioContext::IoContext::threadFunc started
+16:35:35 -0800 (0x00003ab8) [info] AsioContext::IoContext::threadFunc started
+16:35:59 -0800 (0x000029e0) [info] Requested to download 0 subtitle(s) : 
+16:35:59 -0800 (0x000029e0) [info] Starting simultaneously running controllers queue 'download' with limit 20
+16:35:59 -0800 (0x000029e0) [info] App Graph: preparing request for graph
+16:35:59 -0800 (0x000029e0) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+16:35:59 -0800 (0x00001818) [info] Creating graph: Downloader Graph
+16:35:59 -0800 (0x000005f4) [info] HTTP downloader queue add: element:1
+16:35:59 -0800 (0x000005f4) [info] HTTP downloader queue add: element:2
+16:36:41 -0800 (0x00003210) [info] Start remux: <video: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4.cda6-9309-2cc2-f505.part; audio: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4.8969-b998-8741-666e.part; output: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4; >
+16:36:41 -0800 (0x00003210) [info] End remux: <video: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4.cda6-9309-2cc2-f505.part; audio: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4.8969-b998-8741-666e.part; output: C:\Users\admin\Downloads\Nieto Fine Art - Georgianne Fastia.mp4; >
+16:36:41 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:2 is not found
+16:36:41 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:1 is not found
+16:36:41 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+16:39:30 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/determine_service
+16:39:30 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:39:30 -0800 (0x00002e10) [info] App Graph: performing request for url: parsers/determine_service
+16:39:30 -0800 (0x00002e10) [info] Creating graph: ServiceDeterminatorWorkerNode
+16:39:30 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/youtube
+16:39:30 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:39:30 -0800 (0x00002e10) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+16:39:30 -0800 (0x00001818) [info] Creating graph: YoutubeParserGraph
+16:39:30 -0800 (0x000036b8) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=qzBBFK64NFM
+16:39:30 -0800 (0x000036b8) [info] Parse url: https://www.youtube.com/watch?v=qzBBFK64NFM
+16:39:43 -0800 (0x000013c8) [info] There are not subscriptions. Iteration is not started
+16:39:50 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+16:39:58 -0800 (0x00000388) [info] Requested to download 0 subtitle(s) : 
+16:39:58 -0800 (0x00000388) [info] App Graph: preparing request for graph
+16:39:58 -0800 (0x00000388) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+16:39:58 -0800 (0x00001818) [info] Creating graph: Downloader Graph
+16:39:58 -0800 (0x000005f4) [info] HTTP downloader queue add: element:3
+16:39:58 -0800 (0x000005f4) [info] HTTP downloader queue add: element:4
+16:40:05 -0800 (0x00003210) [info] Start remux: <video: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4.fafd-d1a2-108b-4a4f.part; audio: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4.0cbd-4dd0-040c-d260.part; output: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4; >
+16:40:05 -0800 (0x00003210) [info] End remux: <video: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4.fafd-d1a2-108b-4a4f.part; audio: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4.0cbd-4dd0-040c-d260.part; output: C:\Users\admin\Downloads\Georgianne Fastaia Creative Destruction.mp4; >
+16:40:05 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:4 is not found
+16:40:05 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:3 is not found
+16:40:05 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+16:44:11 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/determine_service
+16:44:11 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:44:11 -0800 (0x00002e10) [info] App Graph: performing request for url: parsers/determine_service
+16:44:11 -0800 (0x00002e10) [info] Creating graph: ServiceDeterminatorWorkerNode
+16:44:11 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/youtube
+16:44:11 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:44:11 -0800 (0x00002e10) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+16:44:11 -0800 (0x00001818) [info] Creating graph: YoutubeParserGraph
+16:44:11 -0800 (0x000036b8) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=ZxFa9ICIORo
+16:44:11 -0800 (0x000036b8) [info] Parse url: https://www.youtube.com/watch?v=ZxFa9ICIORo
+16:44:39 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+16:44:43 -0800 (0x00003bd4) [info] There are not subscriptions. Iteration is not started
+16:45:04 -0800 (0x00001d54) [info] Requested to download 0 subtitle(s) : 
+16:45:04 -0800 (0x00001d54) [info] App Graph: preparing request for graph
+16:45:04 -0800 (0x00001d54) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+16:45:04 -0800 (0x00001818) [info] Creating graph: Downloader Graph
+16:45:04 -0800 (0x000005f4) [info] HTTP downloader queue add: element:5
+16:45:04 -0800 (0x000005f4) [info] HTTP downloader queue add: element:6
+16:45:19 -0800 (0x00003210) [info] Start remux: <video: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4.71d4-6b2f-9e5a-ec53.part; audio: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4.8bf2-9acb-fe8e-be4b.part; output: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4; >
+16:45:19 -0800 (0x00003210) [info] End remux: <video: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4.71d4-6b2f-9e5a-ec53.part; audio: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4.8bf2-9acb-fe8e-be4b.part; output: C:\Users\admin\Downloads\the floating city new orleans flood paintings.mp4; >
+16:45:19 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:6 is not found
+16:45:19 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:5 is not found
+16:45:19 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+16:45:46 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/determine_service
+16:45:46 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:45:46 -0800 (0x00002e10) [info] App Graph: performing request for url: parsers/determine_service
+16:45:46 -0800 (0x00002e10) [info] Creating graph: ServiceDeterminatorWorkerNode
+16:45:46 -0800 (0x00002e10) [info] App Graph: preparing request for url: parsers/youtube
+16:45:46 -0800 (0x00002e10) [info] App Graph: preparing request for graph
+16:45:46 -0800 (0x00002e10) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+16:45:46 -0800 (0x00001818) [info] Creating graph: YoutubeParserGraph
+16:45:46 -0800 (0x000036b8) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=c2JA6gL0kVA
+16:45:46 -0800 (0x000036b8) [info] Parse url: https://www.youtube.com/watch?v=c2JA6gL0kVA
+16:46:14 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+16:46:37 -0800 (0x00000f28) [info] Requested to download 0 subtitle(s) : 
+16:46:37 -0800 (0x00000f28) [info] App Graph: preparing request for graph
+16:46:37 -0800 (0x00000f28) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+16:46:37 -0800 (0x00001818) [info] Creating graph: Downloader Graph
+16:46:37 -0800 (0x000005f4) [info] HTTP downloader queue add: element:7
+16:46:37 -0800 (0x000005f4) [info] HTTP downloader queue add: element:8
+16:46:40 -0800 (0x00003210) [info] Start remux: <video: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4.b84a-e51f-29e2-37f3.part; audio: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4.913e-20aa-1ff2-9b68.part; output: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4; >
+16:46:40 -0800 (0x00003210) [info] End remux: <video: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4.b84a-e51f-29e2-37f3.part; audio: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4.913e-20aa-1ff2-9b68.part; output: C:\Users\admin\Downloads\the proccess  called a lift.MOV.mp4; >
+16:46:40 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:8 is not found
+16:46:40 -0800 (0x0000266c) [warning] HTTP downloader queue cancel: element:7 is not found
+16:46:40 -0800 (0x0000266c) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+16:49:27 -0800 (0x00002e10) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x19f35e18dd0 '' (:0, )
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:2 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:1 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:3 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:4 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:6 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:5 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:8 is not found
+16:49:27 -0800 (0x00002e10) [warning] HTTP downloader queue cancel: element:7 is not found
+16:49:27 -0800 (0x00002e10) [info] Stopping simultaneously running controllers queue 'parse'
+16:49:27 -0800 (0x00002e10) [info] Stopping simultaneously running controllers queue 'download'
+16:49:27 -0800 (0x00003ab8) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x00000454) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x00003e18) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x00002b50) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x000036b8) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x00002e6c) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x000013c8) [info] AsioContext::IoContext::threadFunc finished
+16:49:27 -0800 (0x00003bd4) [info] AsioContext::IoContext::threadFunc finished

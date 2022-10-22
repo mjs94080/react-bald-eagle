@@ -1,0 +1,71 @@
+12:49:46 -0800 (0x000016d8) [info] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+12:49:46 -0800 (0x000016d8) [info] [app_Gui] [BaseTranslator] Using locale en_US
+12:49:47 -0800 (0x000016d8) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.13.5.3950, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+12:49:47 -0800 (0x000016d8) [info] Creating new io context pool '' with 2 thread(s)
+12:49:47 -0800 (0x000010cc) [info] AsioContext::IoContext::threadFunc started
+12:49:47 -0800 (0x0000243c) [info] AsioContext::IoContext::threadFunc started
+12:49:47 -0800 (0x0000243c) [info] There are not subscriptions. Iteration is not started
+12:49:57 -0800 (0x000016d8) [info] [SoftwareUpdate] [Manager] checking
+12:49:57 -0800 (0x000016d8) [info] [SoftwareUpdate] [Manager] parsing
+12:49:57 -0800 (0x000016d8) [info] [SoftwareUpdate] [Manager] no update available
+12:50:17 -0800 (0x000016d8) [info] [Feedback] [MessageCenter] downloaded
+12:50:17 -0800 (0x000016d8) [info] [Feedback] [MessageCenter] extracting messages
+12:50:17 -0800 (0x000016d8) [info] [Feedback] [MessageCenter] extracted 0 messages
+12:50:34 -0800 (0x000016d8) [info] App Graph: preparing request for url: parsers/determine_service
+12:50:34 -0800 (0x000016d8) [info] App Graph: preparing request for graph
+12:50:34 -0800 (0x000016d8) [info] App Graph: performing request for url: parsers/determine_service
+12:50:34 -0800 (0x000016d8) [info] Creating graph: ServiceDeterminatorWorkerNode
+12:50:34 -0800 (0x000016d8) [info] Creating new io context pool 'graph_stop' with 2 thread(s)
+12:50:34 -0800 (0x00001b60) [info] AsioContext::IoContext::threadFunc started
+12:50:34 -0800 (0x000028a4) [info] AsioContext::IoContext::threadFunc started
+12:50:34 -0800 (0x000016d8) [info] Starting simultaneously running controllers queue 'parse' with limit 20
+12:50:34 -0800 (0x000016d8) [info] App Graph: preparing request for url: parsers/youtube
+12:50:34 -0800 (0x000016d8) [info] App Graph: preparing request for graph
+12:50:34 -0800 (0x000016d8) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+12:50:34 -0800 (0x00001194) [info] Creating graph: YoutubeParserGraph
+12:50:34 -0800 (0x0000243c) [info] Creating new io context pool 'parser' with 2 thread(s)
+12:50:34 -0800 (0x00003718) [info] AsioContext::IoContext::threadFunc started
+12:50:34 -0800 (0x000034b8) [info] AsioContext::IoContext::threadFunc started
+12:50:34 -0800 (0x000034b8) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=_D4mMk_CYvw
+12:50:34 -0800 (0x000034b8) [info] Parse url: https://www.youtube.com/watch?v=_D4mMk_CYvw
+12:50:43 -0800 (0x000016d8) [info] App Graph: preparing request for url: parsers/determine_service
+12:50:43 -0800 (0x000016d8) [info] App Graph: preparing request for graph
+12:50:43 -0800 (0x000016d8) [info] App Graph: performing request for url: parsers/determine_service
+12:50:43 -0800 (0x000016d8) [info] Creating graph: ServiceDeterminatorWorkerNode
+12:50:43 -0800 (0x000016d8) [info] App Graph: preparing request for url: parsers/youtube
+12:50:43 -0800 (0x000016d8) [info] App Graph: preparing request for graph
+12:50:43 -0800 (0x000016d8) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 2/0/20)
+12:50:43 -0800 (0x00001194) [info] Creating graph: YoutubeParserGraph
+12:50:43 -0800 (0x00003718) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=_D4mMk_CYvw
+12:50:43 -0800 (0x00003718) [info] Parse url: https://www.youtube.com/watch?v=_D4mMk_CYvw
+12:50:46 -0800 (0x000028a4) [error] Cannot stop spawn context for node 'YoutubeParserNode' after 5 second(s), skip
+12:51:06 -0800 (0x000003c4) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 1/0/20)
+12:51:12 -0800 (0x000003c4) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+12:51:12 -0800 (0x000016d8) [info] Creating new io context pool 'content_size_getter' with 2 thread(s)
+12:51:12 -0800 (0x00003130) [info] AsioContext::IoContext::threadFunc started
+12:51:12 -0800 (0x000028a0) [info] AsioContext::IoContext::threadFunc started
+12:51:36 -0800 (0x00001344) [info] Requested to download 0 subtitle(s) : 
+12:51:36 -0800 (0x00001344) [info] Starting simultaneously running controllers queue 'download' with limit 20
+12:51:36 -0800 (0x00001344) [info] App Graph: preparing request for graph
+12:51:36 -0800 (0x00001344) [info] Simultaneously running controllers queue: push to 'download' (current stats: (r/p/l) 1/0/20)
+12:51:36 -0800 (0x00001194) [info] Creating graph: Downloader Graph
+12:51:36 -0800 (0x00002298) [info] HTTP downloader queue add: element:1
+12:51:36 -0800 (0x00002298) [info] HTTP downloader queue add: element:2
+12:52:41 -0800 (0x000034b0) [info] Start remux: <video: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4.af1c-6d89-ab4a-217a.part; audio: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4.a186-9bcb-4e04-006a.part; output: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4; >
+12:52:42 -0800 (0x000034b0) [info] End remux: <video: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4.af1c-6d89-ab4a-217a.part; audio: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4.a186-9bcb-4e04-006a.part; output: C:\Users\admin\Downloads\DLXSF Worldwide 1999 skateboarding.mp4; >
+12:52:43 -0800 (0x000003c4) [warning] HTTP downloader queue cancel: element:2 is not found
+12:52:43 -0800 (0x000003c4) [warning] HTTP downloader queue cancel: element:1 is not found
+12:52:43 -0800 (0x000003c4) [info] Simultaneously running controllers queue: pop from 'download' (current stats: (r/p/l) 0/0/20)
+12:52:57 -0800 (0x000016d8) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x1dbc1acf420 '' (:0, )
+12:52:57 -0800 (0x000016d8) [warning] HTTP downloader queue cancel: element:2 is not found
+12:52:57 -0800 (0x000016d8) [warning] HTTP downloader queue cancel: element:1 is not found
+12:52:57 -0800 (0x000016d8) [info] Stopping simultaneously running controllers queue 'parse'
+12:52:57 -0800 (0x000016d8) [info] Stopping simultaneously running controllers queue 'download'
+12:52:57 -0800 (0x00003130) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x000028a0) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x000028a4) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x00001b60) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x00003718) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x000034b8) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x0000243c) [info] AsioContext::IoContext::threadFunc finished
+12:52:57 -0800 (0x000010cc) [info] AsioContext::IoContext::threadFunc finished

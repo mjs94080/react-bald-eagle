@@ -1,0 +1,95 @@
+13:55:07 -0800 (0x00004ba8) [info] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+13:55:07 -0800 (0x00004ba8) [info] [app_Gui] [BaseTranslator] Using locale en_US
+13:55:07 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.13.5.3950, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+13:55:08 -0800 (0x00004ba8) [info] Creating new io context pool '' with 2 thread(s)
+13:55:08 -0800 (0x000044f4) [info] AsioContext::IoContext::threadFunc started
+13:55:08 -0800 (0x0000486c) [info] AsioContext::IoContext::threadFunc started
+13:55:08 -0800 (0x000044f4) [info] There are not subscriptions. Iteration is not started
+13:55:12 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/determine_service
+13:55:12 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:12 -0800 (0x00004ba8) [info] App Graph: performing request for url: parsers/determine_service
+13:55:12 -0800 (0x00004ba8) [info] Creating graph: ServiceDeterminatorWorkerNode
+13:55:12 -0800 (0x0000486c) [warning] Cannot determine service for url 'https://xhamster.com/videos/white-wife-fucking-a-bbc-pt-2-xh3E5dt', using 'html' parser
+13:55:12 -0800 (0x00004ba8) [info] Creating new io context pool 'graph_stop' with 2 thread(s)
+13:55:12 -0800 (0x00003fcc) [info] AsioContext::IoContext::threadFunc started
+13:55:12 -0800 (0x00004648) [info] AsioContext::IoContext::threadFunc started
+13:55:12 -0800 (0x00004ba8) [info] Starting simultaneously running controllers queue 'parse' with limit 20
+13:55:12 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/html
+13:55:12 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:12 -0800 (0x00004ba8) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:55:12 -0800 (0x000048b8) [info] Creating graph: HtmlParserGraph
+13:55:12 -0800 (0x000044f4) [info] Creating new io context pool 'parser' with 2 thread(s)
+13:55:12 -0800 (0x00000658) [info] AsioContext::IoContext::threadFunc started
+13:55:12 -0800 (0x000044dc) [info] AsioContext::IoContext::threadFunc started
+13:55:13 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:13 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:14 -0800 (0x00000658) [warning] Cannot parse url, try to find video url on the page: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:14 -0800 (0x00000658) [info] Video ID = kQ2pfCcQa_Q was found on the page https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:14 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:14 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:15 -0800 (0x000044f4) [error] Error occurred while in message loop: D:\jenkins-msvc-x64\workspace\app_release_videodownloader-4.13\sdk\include\openmedia\appgraph\WorkerGraphException.h(101): Throw in function void __cdecl openmedia::appgraph::worker::throwException<const class openmedia::downloader::url_parser::exception&>(class openmedia::appgraph::worker::WorkerGraphGuard &&,const class openmedia::downloader::url_parser::exception &)
+Dynamic exception type: struct boost::wrapexcept<class openmedia::appgraph::worker::WorkerGraphInternalException<class openmedia::downloader::url_parser::exception> >
+std::exception::what: 
+13:55:15 -0800 (0x00004648) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:55:17 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] checking
+13:55:18 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] parsing
+13:55:18 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] update available
+13:55:30 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/determine_service
+13:55:30 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:30 -0800 (0x00004ba8) [info] App Graph: performing request for url: parsers/determine_service
+13:55:30 -0800 (0x00004ba8) [info] Creating graph: ServiceDeterminatorWorkerNode
+13:55:30 -0800 (0x000044f4) [warning] Cannot determine service for url 'https://xhamster.com/videos/white-wife-fucking-a-bbc-pt-2-xh3E5dt', using 'html' parser
+13:55:30 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/html
+13:55:30 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:30 -0800 (0x00004ba8) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:55:30 -0800 (0x000048b8) [info] Creating graph: HtmlParserGraph
+13:55:31 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:31 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:31 -0800 (0x00000658) [warning] Cannot parse url, try to find video url on the page: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:31 -0800 (0x00000658) [info] Video ID = kQ2pfCcQa_Q was found on the page https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:31 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:31 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:32 -0800 (0x000044f4) [error] Error occurred while in message loop: D:\jenkins-msvc-x64\workspace\app_release_videodownloader-4.13\sdk\include\openmedia\appgraph\WorkerGraphException.h(101): Throw in function void __cdecl openmedia::appgraph::worker::throwException<const class openmedia::downloader::url_parser::exception&>(class openmedia::appgraph::worker::WorkerGraphGuard &&,const class openmedia::downloader::url_parser::exception &)
+Dynamic exception type: struct boost::wrapexcept<class openmedia::appgraph::worker::WorkerGraphInternalException<class openmedia::downloader::url_parser::exception> >
+std::exception::what: 
+13:55:32 -0800 (0x00003fcc) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:55:35 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/determine_service
+13:55:35 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:35 -0800 (0x00004ba8) [info] App Graph: performing request for url: parsers/determine_service
+13:55:35 -0800 (0x00004ba8) [info] Creating graph: ServiceDeterminatorWorkerNode
+13:55:35 -0800 (0x000044f4) [warning] Cannot determine service for url 'https://xhamster.com/videos/white-wife-fucking-a-bbc-pt-2-xh3E5dt', using 'html' parser
+13:55:35 -0800 (0x00004ba8) [info] App Graph: preparing request for url: parsers/html
+13:55:35 -0800 (0x00004ba8) [info] App Graph: preparing request for graph
+13:55:35 -0800 (0x00004ba8) [info] Simultaneously running controllers queue: push to 'parse' (current stats: (r/p/l) 1/0/20)
+13:55:35 -0800 (0x000048b8) [info] Creating graph: HtmlParserGraph
+13:55:37 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:37 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:37 -0800 (0x00000658) [warning] Cannot parse url, try to find video url on the page: https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:37 -0800 (0x00000658) [info] Video ID = kQ2pfCcQa_Q was found on the page https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+13:55:37 -0800 (0x00000658) [debug] ParseUrlGetImpl: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:37 -0800 (0x00000658) [info] Parse url: https://www.youtube.com/watch?v=kQ2pfCcQa_Q
+13:55:38 -0800 (0x00004ba8) [info] [Feedback] [MessageCenter] downloaded
+13:55:38 -0800 (0x00004ba8) [info] [Feedback] [MessageCenter] extracting messages
+13:55:38 -0800 (0x00004ba8) [info] [Feedback] [MessageCenter] extracted 0 messages
+13:55:38 -0800 (0x000044f4) [error] Error occurred while in message loop: D:\jenkins-msvc-x64\workspace\app_release_videodownloader-4.13\sdk\include\openmedia\appgraph\WorkerGraphException.h(101): Throw in function void __cdecl openmedia::appgraph::worker::throwException<const class openmedia::downloader::url_parser::exception&>(class openmedia::appgraph::worker::WorkerGraphGuard &&,const class openmedia::downloader::url_parser::exception &)
+Dynamic exception type: struct boost::wrapexcept<class openmedia::appgraph::worker::WorkerGraphInternalException<class openmedia::downloader::url_parser::exception> >
+std::exception::what: 
+13:55:38 -0800 (0x00004648) [info] Simultaneously running controllers queue: pop from 'parse' (current stats: (r/p/l) 0/0/20)
+13:56:00 -0800 (0x00004ba8) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x262967456a0 '' (:0, )
+13:56:23 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] downloading
+13:56:23 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] update path C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/dbac4d43-26cd-4027-86c9-c6815f682c86
+13:56:33 -0800 (0x000040cc) [info] [SoftwareUpdate] [Manager] downloaded hash 5e18daee5869b609f25ce493bf1ddee6
+13:56:33 -0800 (0x000040cc) [info] [SoftwareUpdate] [Manager] expected hash 3a36348838f7c3a8cddf0b1352da8944-5
+13:56:33 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] extracting
+13:56:33 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] decompressDirectory: C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/c5117ad8-bc02-4689-a83e-109922efc007
+13:56:44 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] extract completed
+13:56:47 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] installing
+13:56:47 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] directory: C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/c5117ad8-bc02-4689-a83e-109922efc007
+13:56:47 -0800 (0x00004ba8) [info] [SoftwareUpdate] [Manager] shell commands: "C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/c5117ad8-bc02-4689-a83e-109922efc007/4kvideodownloader\4kvideodownloader.exe" --suinstall="C:/Program Files/4KDownload/4kvideodownloader" 
+13:56:47 -0800 (0x00004ba8) [info] Stopping simultaneously running controllers queue 'parse'
+13:56:47 -0800 (0x00003fcc) [info] AsioContext::IoContext::threadFunc finished
+13:56:47 -0800 (0x00004648) [info] AsioContext::IoContext::threadFunc finished
+13:56:47 -0800 (0x000044dc) [info] AsioContext::IoContext::threadFunc finished
+13:56:47 -0800 (0x00000658) [info] AsioContext::IoContext::threadFunc finished
+13:56:47 -0800 (0x000044f4) [info] AsioContext::IoContext::threadFunc finished
+13:56:47 -0800 (0x0000486c) [info] AsioContext::IoContext::threadFunc finished

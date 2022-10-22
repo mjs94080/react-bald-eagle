@@ -1,0 +1,10 @@
+18:12:14 -0800 (0x000007f4) [info] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+18:12:14 -0800 (0x000007f4) [info] [app_Gui] [BaseTranslator] Using locale en_US
+18:12:14 -0800 (0x000007f4) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.13.5.3950, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+18:12:15 -0800 (0x000007f4) [info] Creating new io context pool '' with 2 thread(s)
+18:12:15 -0800 (0x00004324) [info] AsioContext::IoContext::threadFunc started
+18:12:15 -0800 (0x00004728) [info] AsioContext::IoContext::threadFunc started
+18:12:15 -0800 (0x00004728) [info] There are not subscriptions. Iteration is not started
+18:12:23 -0800 (0x000007f4) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x247959004f0 '' (:0, )
+18:12:23 -0800 (0x00004324) [info] AsioContext::IoContext::threadFunc finished
+18:12:23 -0800 (0x00004728) [info] AsioContext::IoContext::threadFunc finished

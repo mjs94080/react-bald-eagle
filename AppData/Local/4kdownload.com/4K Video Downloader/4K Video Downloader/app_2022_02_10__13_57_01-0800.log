@@ -1,0 +1,43 @@
+2022-02-10 13:57:01.703976 -0800 (0x0000460c) [info] [CrashDump] Starting handler at C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/c5117ad8-bc02-4689-a83e-109922efc007/4kvideodownloader
+2022-02-10 13:57:01.877291 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloader.crash.json
+2022-02-10 13:57:01.892273 -0800 (0x0000460c) [info] [app_Gui] [BaseTranslator] Using locale en_US
+2022-02-10 13:57:01.930321 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Application&ea=Run&el=Less%20than%2010&ev=4&z=24333
+2022-02-10 13:57:01.933251 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Application&ea=Platform&el=windows-64-10.0.19042&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.19042%22%7D&z=16854
+2022-02-10 13:57:01.934251 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Application&ea=Resolution&el=1366x768&z=1363
+2022-02-10 13:57:01.934251 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Application&ea=LogicalDPI&el=96&z=2790
+2022-02-10 13:57:01.935251 -0800 (0x000009cc) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloader.xml
+2022-02-10 13:57:01.935251 -0800 (0x0000460c) [info] [SoftwareUpdate] [Installer] install update requested
+2022-02-10 13:57:01.937248 -0800 (0x0000467c) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Update&ea=Started&z=24932
+2022-02-10 13:57:03.159941 -0800 (0x0000224c) [info] [NetworkReachability] [Connect_00000074A070EA20] connected to [2607:f8b0:4005:80e::200e]:443 for https@www.youtube.com
+2022-02-10 13:57:03.171954 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.172953 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000001] close
+2022-02-10 13:57:03.172953 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.179949 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.179949 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.179949 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.179949 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000003] close
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000002] close
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000007] close
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000004] close
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.180999 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.185964 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.185964 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000005] close
+2022-02-10 13:57:03.186963 -0800 (0x0000224c) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.213650 -0800 (0x000009cc) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:03.214693 -0800 (0x000009cc) [debug] [http] [HttpDownloaderImpl_0000000000000006] close
+2022-02-10 13:57:03.214693 -0800 (0x000009cc) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:03.239124 -0800 (0x0000224c) [info] [NetworkReachability] [Loop_00000074A070EDB0] network is reachable
+2022-02-10 13:57:04.985329 -0800 (0x000028d0) [info] [SoftwareUpdate] [Installer] starting
+2022-02-10 13:57:04.985329 -0800 (0x000028d0) [info] [SoftwareUpdate] [Installer] copying from C:/Users/admin/AppData/Roaming/4kdownload.com/4K Video Downloader/4K Video Downloader/SoftwareUpdate/c5117ad8-bc02-4689-a83e-109922efc007/4kvideodownloader to C:/Program Files/4KDownload/4kvideodownloader
+2022-02-10 13:57:07.623765 -0800 (0x0000460c) [info] [SoftwareUpdate] [Installer] completed
+2022-02-10 13:57:07.626763 -0800 (0x0000460c) [info] [SoftwareUpdate] [Installer] Registry version info updated: DisplayName='4K Video Downloader' DisplayVersion=4.19.4.4720 Version=4130000 VersionMajor=4 VersionMinor=19
+2022-02-10 13:57:07.627763 -0800 (0x0000460c) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=fe86f11c-2861-46c2-bf39-d24d6f624bad&t=event&an=4K%20Video%20Downloader&av=4.19.4.4720&ec=Update&ea=Completed&z=25399
+2022-02-10 13:57:07.723629 -0800 (0x0000460c) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleOpen system:0:The operation completed successfully
+2022-02-10 13:57:07.723629 -0800 (0x0000460c) [debug] [http] [HttpDownloaderImpl_0000000000000008] close
+2022-02-10 13:57:07.723629 -0800 (0x0000460c) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-02-10 13:57:07.737180 -0800 (0x0000460c) [info] [SoftwareUpdate] [Installer] shell command init: path C:/Program Files/4KDownload/4kvideodownloader, absoluteFilePath C:/Program Files/4KDownload/4kvideodownloader/4kvideodownloader.exe
+2022-02-10 13:57:07.737180 -0800 (0x0000460c) [info] [SoftwareUpdate] [Installer] shell command: "C:/Program Files/4KDownload/4kvideodownloader/4kvideodownloader.exe" --suupdated="true"
