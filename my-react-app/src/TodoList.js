@@ -9,7 +9,7 @@ function TodoList({ todoList, onRemoveTodo }) {
           <TodoListItem
             key={item.id}
             id={item.id}
-            title={item.title}
+            title={item.fields.Name}
             //{...item} spread operator good for multiple props
             onRemoveTodo={onRemoveTodo}
           />
