@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AddTodoForm from "./AddTodoForm";
 import TodoList from "./TodoList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // const useSemiPersistentState = () => {
 //   const [todoList, setTodoList] = useState(
@@ -67,18 +68,29 @@ function App() {
   };
 
   return (
-    <>
-      <h1>Todo List</h1>
-      <hr />
-      <AddTodoForm onAddTodo={addTodo} />
-      {isLoading ? (
-        <p>
-          <strong>Busting Loads...</strong>
-        </p>
-      ) : (
-        <TodoList todoList={todoList} onRemoveTodo={removeTodo} />
-      )}
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          exact
+          element={
+            <>
+              <h1>Todo List</h1>
+              <hr />
+              <AddTodoForm onAddTodo={addTodo} />
+              {isLoading ? (
+                <p>
+                  <strong>Loading...</strong>
+                </p>
+              ) : (
+                <TodoList todoList={todoList} onRemoveTodo={removeTodo} />
+              )}
+            </>
+          }
+        />
+        <Route path="/new" exact element={<h1>New TodoList</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
