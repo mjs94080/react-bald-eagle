@@ -11,7 +11,6 @@ function TodoList({ todoList, onRemoveTodo }) {
             key={todo.id}
             id={todo.id}
             todo={todo}
-            //{...item} spread operator good for multiple props
             onRemoveTodo={onRemoveTodo}
           />
         );
