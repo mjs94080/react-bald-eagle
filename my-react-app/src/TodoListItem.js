@@ -1,15 +1,13 @@
 import React from "react";
-import { findRenderedDOMComponentWithClass } from "react-dom/test-utils";
-import TodoList from "./TodoList";
 
-function TodoListItem({ title, onRemoveTodo, id }) {
+function TodoListItem({ todo, onRemoveTodo, id }) {
   return (
-    <>
-      <li>{title}</li>
+    <li>
+      <span>{todo.fields.Name}</span>
       <button type="button" onClick={() => onRemoveTodo(id)}>
         Remove
       </button>
-    </>
+    </li>
   );
 }
 
