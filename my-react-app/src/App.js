@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import AddTodoForm from "./AddTodoForm";
 import TodoList from "./TodoList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { ReactComponent as Hand } from "./hand.svg";
+import Header from "./header";
+import { Link } from "react-router-dom";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
@@ -33,6 +37,7 @@ function App() {
 
   const addTodo = (newTodo) => {
     setTodoList([...todoList, newTodo]);
+    console.log(newTodo, todoList);
   };
 
   const removeTodo = (id) => {
@@ -41,19 +46,62 @@ function App() {
     setTodoList(filteredTodoList);
   };
 
+  /* BrowserRouter, Routes, Route navigates to another page */
   return (
-    <>
-      <h1>Todo List</h1>
-      <hr />
-      <AddTodoForm onAddTodo={addTodo} />
-      {isLoading ? (
-        <p>
-          <strong>Busting Loads...</strong>
-        </p>
-      ) : (
-        <TodoList todoList={todoList} onRemoveTodo={removeTodo} />
-      )}
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          exact
+          element={
+            <>
+              {/* linked from header.jsx, hover svg becomes clickable link to 
+                  Route path="/new" */}
+              <Link to="/new" target="blank">
+                <div class="hand">
+                  <div alt="zombiehand" class="image" />
+                </div>
+              </Link>
+
+              <h1>To Do List</h1>
+              <hr />
+              <AddTodoForm onAddTodo={addTodo} />
+              {isLoading ? (
+                <p>
+                  <strong>EAT BRAINS...</strong>
+                </p>
+              ) : (
+                <TodoList todoList={todoList} onRemoveTodo={removeTodo} />
+              )}
+            </>
+          }
+        />
+
+        <Route
+          path="/new"
+          exact
+          element={
+            <div>
+              <h2>MY HOME PAGE</h2>
+
+              {/* this opens up external url to github */}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/mackenzie-santiago-94080/"
+              >
+                <img
+                  src="https://media1.giphy.com/media/I0Z7xEnYL3Fu0/giphy.gif?cid=ecf05e47c6nykgavdinwk97b41egnhgdnp6y0u1qci13co6r&rid=giphy.gif&ct=g"
+                  alt="walkingdead"
+                  class="new-page"
+                />
+              </a>
+            </div>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
