@@ -3,19 +3,21 @@ import TodoListItem from "./TodoListItem";
 
 function TodoList({ todoList, onRemoveTodo }) {
   return (
-    <ul>
-      {todoList.map((item) => {
-        return (
-          <TodoListItem
-            key={item.id}
-            id={item.id}
-            title={item.fields.Name}
-            //{...item} spread operator good for multiple props
-            onRemoveTodo={onRemoveTodo}
-          />
-        );
-      })}
-    </ul>
+    <div>
+      <ul>
+        {todoList.map((todo) => {
+          console.log(todo);
+          return (
+            <TodoListItem
+              key={todo.id}
+              id={todo.id}
+              todo={todo}
+              onRemoveTodo={onRemoveTodo}
+            />
+          );
+        })}
+      </ul>
+    </div>
   );
 }
 

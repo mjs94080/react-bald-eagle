@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap"); */
+h2 {
+  font-family: "Nosifer", cursive;
+  color: rgb(248, 9, 9);
+  font-size: 39px;
+  letter-spacing: 10px;
+  justify-content: center;
+  display: block;
+}
+
+/* shadow effect for ADD button on Form */
+.submitButton:hover {
+  box-shadow: 0 0 15px #176ee9, 0 0 35px #0ed44a, 0 0 65px #8a3cf0,
+    0 0 200px #be0490;
+  cursor: pointer;
+}
+
+/* centers the FORM */
+form {
+  display: flex;
+  justify-content: center;
+}
+
+/* centers EAT BRAINS... (loading) */
+p {
+  /* font-family: ; */
+  font-size: 35px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(214, 7, 7);
+}
+
+/* sets the image size for zombie & hand */
+.image {
+  display: inline-flex;
+  width: 120px;
+  height: 120px;
+}
+
+.hand {
+  display: inline-flex;
+  background: url("hand.svg");
+}
+
+.hand:hover,
+.hand:focus {
+  display: inline-flex;
+  background: url("zombie.svg");
+  cursor: crosshair;
+}
+
+.new-page {
+  cursor: crosshair;
+}
+
+.new-page:hover {
+  box-shadow: 0 0 10px #176ee9, 0 0 35px #0ed44a, 0 0 65px #8a3cf0,
+    0 0 80px #a806a0;
+}

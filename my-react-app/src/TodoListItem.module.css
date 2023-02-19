@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+h1 {
+  font-family: "Creepster", cursive;
+  color: rgb(199, 18, 154);
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+body {
+  padding: 0px 0px 100px 0px;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 12, 12);
+  font-size: 20px;
+  color: aliceblue; /* item and title color */
+}
+
+/* spacing for item1 item2 item3 item4 */
+.ListItem {
+  margin: 0px 15px 35px 60px;
+  display: flexbox;
+}
+
+/* ADD button */
+button:hover {
+  background: #0c0c0c;
+  color: #f7f1f1;
+  cursor: pointer;
+}
+
+/* Skull svg */
+button:hover > svg > g {
+  fill: #f71313;
+  stroke: #f71313;
+}
+
+/* padding between Item and Buttons */
+li span {
+  padding-right: 25px;
+}
