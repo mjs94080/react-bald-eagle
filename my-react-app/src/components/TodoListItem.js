@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./TodoListItem.module.css";
 import { ReactComponent as Skull } from "./skull.svg";
+import PropTypes from "prop-types";
 
 function TodoListItem({ todo, onRemoveTodo, id }) {
   return (
@@ -18,5 +19,11 @@ function TodoListItem({ todo, onRemoveTodo, id }) {
     </li>
   );
 }
+
+TodoListItem.propTypes = {
+  todo: PropTypes.object,
+  onRemoveTodo: PropTypes.func,
+  id: PropTypes.string,
+};
 
 export default TodoListItem;

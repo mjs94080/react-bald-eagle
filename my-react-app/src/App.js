@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import AddTodoForm from "./AddTodoForm";
-import TodoList from "./TodoList";
+import AddTodoForm from "./components/AddTodoForm";
+import TodoList from "./components/TodoList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { ReactComponent as Hand } from "./hand.svg";
 import Header from "./header";
