@@ -23,6 +23,14 @@ function App() {
     )
       .then((response) => response.json())
       .then((result) => {
+        // function sortItems()
+        result.records.sort(function (objectA, objectB) {
+          console.log(result.record);
+          if (objectA.fields.Name < objectB.fields.Name) return -1;
+          if (objectA.fields.Name > objectB.fields.Name) return 1;
+          return 0;
+        });
+
         setTodoList(result.records || []);
         setIsLoading(false);
       });

@@ -21,7 +21,7 @@ body {
 
 /* spacing for item1 item2 item3 item4 */
 .ListItem {
-  margin: 0px 15px 35px 60px;
+  margin: 0px 15px 35px 28px;
   display: flexbox;
 }
 
@@ -40,5 +40,5 @@ button:hover > svg > g {
 
 /* padding between Item and Buttons */
 li span {
-  padding-right: 25px;
+  padding-right: 20px;
 }
